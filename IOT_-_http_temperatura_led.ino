@@ -4,7 +4,7 @@
 #include "ThingSpeak.h"
 
 //Definindo variáveis do Thingspeak
-String apiKey = "MR5T37P8QJTRTR30";   //Coloque a CHAVE do ThingSpeak entre as aspas
+String apiKey = "";   //Coloque a CHAVE do ThingSpeak entre as aspas
 const char* server = "api.thingspeak.com";
 unsigned long canal = 369586;         //Número do seu canal
 String canal_temperatura = "1";            // canal da temperatura
